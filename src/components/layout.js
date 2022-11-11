@@ -8,14 +8,11 @@ const Layout = ({ location, children }) => {
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">
-      <nav>
-      <Link to="/">Distribution of things</Link>
-      <Link to="/about">about</Link>
-      </nav>
+        <Link to="/">Distribution of things</Link>
+        <Link to="/about">about</Link>
       </header>
       <main>{children}</main>
-      <footer>
-      </footer>
+      <footer></footer>
     </div>
   )
 }

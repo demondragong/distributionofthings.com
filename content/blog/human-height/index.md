@@ -1,7 +1,7 @@
 ---
 title: Human height
-date: "2015-05-01T22:12:03.284Z"
-description: "Human height description"
+date: "2021-12-10T21:12:03.284Z"
+description: "Your height is normal"
 ---
 
 It’s difficult to appreciate the height of NBA players on television, especially when you’re comparing apples with apples, i.e., a homogenous group of basketball players on the court. The graph below compares apples with oranges, or more accurately bananas with strawberries, or more simply NBA players with the human population.

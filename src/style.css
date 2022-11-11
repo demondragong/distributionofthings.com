@@ -250,6 +250,9 @@ a:focus {
 
 .global-header {
   margin-bottom: var(--spacing-12);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .main-heading {
@@ -274,7 +277,7 @@ a:focus {
 }
 
 .post-list-item header {
-  margin-bottom: var(--spacing-4);
+  margin-bottom: var(--spacing-2);
 }
 
 .header-link-home {
