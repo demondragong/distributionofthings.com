@@ -3,11 +3,10 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const About = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
+const About = ({ location }) => {
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location}>
       <h1>about</h1>
       <p>
         I thought about calling this page "FAQ" but one has yet to ask me a
@@ -76,4 +75,4 @@ export default About
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="About" />
+export const Head = () => <Seo title="About Distribution of things" />
