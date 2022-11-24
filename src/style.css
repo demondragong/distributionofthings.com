@@ -330,12 +330,11 @@ a:focus {
 }
 
 .newsletter-input-container {
-  display: flex;
-  gap: 0.5rem;
   padding: 0.5rem 0;
 }
 
 .newsletter-input-container > * {
+  margin-right: .5rem;
   padding: .375rem .75rem;
 }
 

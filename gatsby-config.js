@@ -42,6 +42,8 @@ module.exports = {
             options: {
               maxWidth: 630,
             },
+          },
+          {
             resolve: `gatsby-remark-footnotes`,
             options: {
               footnoteBackRefPreviousElementDisplay: "inline",

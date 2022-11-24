@@ -22,8 +22,7 @@ const Layout = ({ location, children }) => {
             />
             <div className="row align-items-center">
               <label htmlFor="newsletter" className="col-sm-8 my-2">
-                Receive an email when a new distribution is published. About
-                once per month.
+                Receive an email when a new distribution is published. Sometimes.
               </label>
               <div className="newsletter-input-container">
                 <input
