@@ -30,8 +30,7 @@ const About = ({ location }) => {
         often represented by a graph, like a histogram or a density plot. We’re
         quite used to describe variables with averages such as means, sometimes
         medians. These are convenient but often fail to describe a dataset
-        accurately. Distributions don’t tell everything either, but they are a
-        lot more powerful than a single figure.
+        accurately. Distributions don’t tell everything either, but they convey a lot more information than a single number.
       </p>
       <p>
         <b>How do you make this?</b>

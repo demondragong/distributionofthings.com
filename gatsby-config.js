@@ -11,13 +11,13 @@ module.exports = {
   siteMetadata: {
     title: `Distribution of things`,
     author: {
-      name: `Gaël de Mondragon`
+      name: `Gaël de Mondragon`,
     },
     description: `A simple yet informative website with frequency and probability distributions built using public datasets. Check out those curves.`,
     siteUrl: `https://www.distributionofthings.com/`,
   },
   plugins: [
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -41,6 +41,18 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 630,
+            },
+            resolve: `gatsby-remark-footnotes`,
+            options: {
+              footnoteBackRefPreviousElementDisplay: "inline",
+              footnoteBackRefDisplay: "inline",
+              footnoteBackRefInnerText: "^", // Defaults to: "↩"
+              //use if you want the Wikipedia style ^ link without an underline beneath it
+              footnoteBackRefAnchorStyle: `text-decoration: none;`,
+              //use "front" for Wikipedia style ^ links
+              footnoteBackRefInnerTextStartPosition: "front",
+              useFootnoteMarkerText: false, // Defaults to false
+              useCustomDivider: "<hr/><strong>Notes and data sources</strong>", // Defaults to <hr/>
             },
           },
           {
