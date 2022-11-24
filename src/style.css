@@ -323,6 +323,22 @@ a:focus {
   text-decoration: none;
 }
 
+.newsletter-container {
+  padding-top: 1rem;
+  margin: 1rem auto;
+  border-top: 1px solid #dee2e6;
+}
+
+.newsletter-input-container {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.newsletter-input-container > * {
+  padding: .375rem .75rem;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
