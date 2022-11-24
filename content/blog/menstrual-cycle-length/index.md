@@ -14,13 +14,9 @@ I first looked at previous studies that analysed the length of menstrual cycles,
 
   
 
-![histogram of menstruation cycle length](./histogram-of-menstruation-cycle-length.png)
+![histogram of menstruation cycle length](./histogram-of-menstruation-cycle-length.png "©Zhengwei Yang, Jeffrey C. Schank. Originally published in Human Nature ([source](https://www.semanticscholar.org/paper/Women-do-not-synchronize-their-menstrual-cycles-Yang-Schank/882fe2679be7059f12c6497a0bbf380b929b04be))")
 
-©Zhengwei Yang, Jeffrey C. Schank. Originally published in Human Nature ([source](https://www.semanticscholar.org/paper/Women-do-not-synchronize-their-menstrual-cycles-Yang-Schank/882fe2679be7059f12c6497a0bbf380b929b04be))
-
-![density plots of menstruation cycle lengths](./menstruation_densityplots_age_cat.jpeg)
-
-©Jessica A Grieger, Robert J Norman. Originally published in the Journal of Medical Internet Research ([source](https://europepmc.org/article/pmc/pmc7381001))
+![density plots of menstruation cycle lengths](./menstruation_densityplots_age_cat.jpeg "©Jessica A Grieger, Robert J Norman. Originally published in the Journal of Medical Internet Research ([source](https://europepmc.org/article/pmc/pmc7381001))")
 
 Using a publicly available anonymised dataset[^3] I plotted the distribution myself and similarly found that while the average cycle length is 28 days, the distribution is skewed to the right, with some cycles lasting as long as 55 days. In fact, "the duration of menstrual cycles of women can vary from as short as 14 days to as long as 360 days!”[^4]
 

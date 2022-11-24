@@ -46,9 +46,7 @@ It’s probably a good thing that IMDb keeps a certain control on the scores dis
 
 The short film [Bois de Boulogne](https://www.imdb.com/title/tt0000046/) from 1896 was given an average rating of 4.1 based on the votes of 32 IMDb users. Sadly, this film is considered lost as no copy of it is known to exist.
 
-![Le Voyage dans la lune](./Le_Voyage_dans_la_lune.jpg)
-
-[Georges Méliès](https://en.wikipedia.org/wiki/Georges_M%C3%A9li%C3%A8s) is watching you, trolls.
+![Le Voyage dans la lune](./Le_Voyage_dans_la_lune.jpg "[Georges Méliès](https://en.wikipedia.org/wiki/Georges_M%C3%A9li%C3%A8s) is watching you, trolls.")
 
 While looking for data to write this article I came across the [IMDb Top 250 Movies](https://www.imdb.com/chart/top/?ref_=nv_mv_250). In order to have a legitimate ranking, IMDb only takes into account the votes of regular voters to produce this list. And they do not disclose the criteria used to count someone as a regular voter...
 

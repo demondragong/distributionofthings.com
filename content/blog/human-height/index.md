@@ -38,9 +38,7 @@ If you want to read more about human height, its evolution across the world and 
 
 Final thought, if your dream is to play in the NBA but your height is below average, don’t let that be the excuse to not pursue your dream. Standing at 160 cm, Muggsy Bogues played 14 seasons in the NBA as well for the USA national team during the 1986 FIBA World Championship, which they won.
 
-![Muggsy Bogues shooting against Sabonis](./Muggsy-Bogues-vs-Arvydas-Sabonis.jpeg)
-
-2.21 m Arvydas Sabonis? No problem.
+![Muggsy Bogues shooting against Sabonis](./Muggsy-Bogues-vs-Arvydas-Sabonis.jpeg "2.21 m Arvydas Sabonis? No problem.")
 
 
 

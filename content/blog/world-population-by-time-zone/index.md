@@ -22,9 +22,7 @@ The thing is, time zones are controlled by governments and, on a global scale, t
 
 The tz database contains close to 400 different time zones, albeit many of which are historical! The maintainers of this collaborative project record regions of the world where local clocks have, since 1970, all been the same.[^4]
 
-![very contrasted map of the world with all the time zones](./timezone-boundaries-2020d.png)
-
-Looking at this image for too long can cause seizures ©Evan Siroky ([source](https://github.com/evansiroky/timezone-boundary-builder))
+![very contrasted map of the world with all the time zones](./timezone-boundaries-2020d.png "Looking at this image for too long can cause seizures ©Evan Siroky ([source](https://github.com/evansiroky/timezone-boundary-builder))")
 
 Anyway, this is not what I had in mind when I started this… A graph with the number of people for each possible combination that makes up a time zone would likely be hideous (sorry if you made one and think it’s pretty. I’d love to see it…)
 
