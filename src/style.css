@@ -323,20 +323,27 @@ a:focus {
   text-decoration: none;
 }
 
-.newsletter-container {
+.signup-container {
   padding-top: 1rem;
   margin: 1rem auto;
   border-top: 1px solid #dee2e6;
 }
 
-.newsletter-input-container {
-  padding: 0.5rem 0;
+#mc_embed_signup_scroll {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
 }
 
-.newsletter-input-container > * {
-  margin-right: .5rem;
-  padding: .375rem .75rem;
+.signup-email-label {
+  display: none;
 }
+
+.signup-email-input, .signup-email-button {
+  padding: 0.25rem 0.75rem;
+}
+
+
 
 /* Media queries */
 
