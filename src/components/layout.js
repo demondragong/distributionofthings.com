@@ -35,7 +35,7 @@ const Layout = ({ location, children }) => {
                     className="required email signup-email-input"
                     id="mce-EMAIL"
                     required
-                    placeholder="Email Address"
+                    placeholder="Email"
                   />
                   <span id="mce-EMAIL-HELPERTEXT" className="helper_text" />
                 </div>
