@@ -14,7 +14,9 @@ const Layout = ({ location, children }) => {
       <main>{children}</main>
       <footer>
         <div className="signup-container">
-          <div>Subscribe to receive the next distribution. Unsubscribe anytime.</div>
+          <div>
+            Subscribe to receive the next distribution. Unsubscribe anytime.
+          </div>
           <div id="mc_embed_signup">
             <form
               action="https://distributionofthings.us20.list-manage.com/subscribe/post?u=e2c3523040011f23db3a10671&id=4da03abbc6&f_id=00df55e6f0"
@@ -27,7 +29,9 @@ const Layout = ({ location, children }) => {
             >
               <div id="mc_embed_signup_scroll">
                 <div className="mc-field-group">
-                  <label className="signup-email-label" htmlFor="mce-EMAIL">Email Address</label>
+                  <label className="signup-email-label" htmlFor="mce-EMAIL">
+                    Email Address
+                  </label>
                   <input
                     type="email"
                     defaultValue=""
@@ -77,6 +81,9 @@ const Layout = ({ location, children }) => {
               </div>
             </form>
           </div>
+        </div>
+        <div className="copyright-container">
+          <a href="https://gaël.com">Gaël</a> © 2023
         </div>
       </footer>
     </div>
