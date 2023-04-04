@@ -83,7 +83,7 @@ const Layout = ({ location, children }) => {
           </div>
         </div>
         <div className="copyright-container">
-          <a href="https://gaël.com">Gaël</a> © 2023
+          <a href="https://twitter.com/gaeldemondragon">Gaël</a> © 2023
         </div>
       </footer>
     </div>
