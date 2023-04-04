@@ -53,9 +53,8 @@ const About = ({ location }) => {
       <p>
         <b>I have an idea of a distribution, can I share it with you?</b>
         <br />
-        Please do! You can email me at{" "}
-        <a href="mailto:de.mondragon.g@gmail.com">de.mondragon.g@gmail.com</a>.
-        If you have the data that goes with it, it’s even better :)
+        Please do! You can <a href="https://twitter.com/gaeldemondragon">find me on Twitter</a> or email me at{" "}
+        <a href="mailto:demondragong@gmail.com">demondragon.g@gmail.com</a>.
       </p>
       <p>
         <b>There are some shocking errors on this website.</b>
