@@ -12,9 +12,13 @@ module.exports = {
     title: `Distribution of things`,
     author: {
       name: `Gaël de Mondragon`,
+      summary: `an indie maker in the making.`,
     },
     description: `A simple yet informative website with frequency and probability distributions built using public datasets. Check out those curves.`,
     siteUrl: `https://www.distributionofthings.com/`,
+    social: {
+      twitter: `gaeldemondragon`,
+    },
   },
   plugins: [
     "gatsby-plugin-postcss",
