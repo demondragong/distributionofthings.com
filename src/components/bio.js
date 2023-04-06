@@ -44,9 +44,9 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
+          Written by <strong>{author.name}</strong>, {author?.summary || null}
+          <br/>
+          <a href={`https://twitter.com/${social?.twitter || ``}`} target="_blank">
             Follow my journey on Twitter.
           </a>
         </p>
