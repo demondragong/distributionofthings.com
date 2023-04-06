@@ -14,7 +14,7 @@ module.exports = {
       name: `Gaël de Mondragon`,
       summary: `an indie maker in the making.`,
     },
-    description: `A simple yet informative website with frequency and probability distributions built using public datasets. Check out those curves.`,
+    description: `A simple yet informative blog featuring frequency and probability distributions built on public datasets. Check out those curves!`,
     siteUrl: `https://www.distributionofthings.com/`,
     social: {
       twitter: `gaeldemondragon`,
@@ -129,7 +129,7 @@ module.exports = {
       options: {
         name: `Distribution of things`,
         short_name: `Distribution of things`,
-        description: `A simple yet informative website with frequency and probability distributions built using public datasets. Check out those curves.`,
+        description: `A simple yet informative blog featuring frequency and probability distributions built on public datasets. Check out those curves!`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
