@@ -11,8 +11,8 @@ module.exports = {
   siteMetadata: {
     title: `Distribution of things`,
     author: {
-      name: `Gaël de Mondragon`,
-      summary: `an indie maker in the making.`,
+      name: `Gaël de Mondragon and Natascha Minnitt`,
+      summary: ``,
     },
     description: `A simple yet informative blog featuring frequency and probability distributions built on public datasets. Check out those curves!`,
     siteUrl: `https://www.distributionofthings.com/`,
