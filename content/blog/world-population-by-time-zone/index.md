@@ -10,19 +10,19 @@ This got me thinking. How is the world population distributed across time zones?
 
 I looked up online to see if it had already been done and hoped to find a dataset that would allow me to easily plot such a distribution.
 
-Well let me tell you it wasn’t easy!
+Well, let me tell you, it wasn’t easy!
 
 First things first, what is a time zone?
 
-Definitions vary, but a time zone is generally understood as a region where the same standard time is used. In other words it’s an area where people are expected to have their clocks in sync.
+Definitions vary, but a time zone is typically understood as a region where the same standard time is used. In other words, it’s an area where people are expected to have their clocks in sync.
 
-It can be further defined as an offset from Coordinated Universal Time (UTC), whether to use daylight saving time or not, and if so, when people should set their clocks forward and when they should set it back.[^2]
+It is also defined as an offset from Coordinated Universal Time (UTC), whether to use daylight saving time or not, and if so, when people should set their clocks forward and when they should set them back.[^2]
 
 The thing is, time zones are controlled by governments and, on a global scale, they change pretty frequently![^3]
 
 The tz database contains close to 400 different time zones, albeit many of which are historical! The maintainers of this collaborative project record regions of the world where local clocks have, since 1970, all been the same.[^4]
 
-![very contrasted map of the world with all the time zones](./timezone-boundaries-2020d.png "Looking at this image for too long can cause seizures ©Evan Siroky ([source](https://github.com/evansiroky/timezone-boundary-builder))")
+![very contrasted map of the world with all the time zones](./timezone-boundaries-2024a.webp "Looking at this image for too long can cause seizures ©Evan Siroky ([source](https://github.com/evansiroky/timezone-boundary-builder))")
 
 Anyway, this is not what I had in mind when I started this… A graph with the number of people for each possible combination that makes up a time zone would likely be hideous (sorry if you made one and think it’s pretty. I’d love to see it…)
 
@@ -32,7 +32,7 @@ Well there’s a more accurate word for this and that word is _UTC offset._ I st
 
 There’s another catch: two zones might share the same local time right now but have different local times at some point during the year. Take South Africa and France for instance. South Africa is 2 hours ahead of UTC, all year round. France is 1 hour ahead of UTC between the last Sunday of October and last Sunday of March and 2 hours ahead of UTC the rest of the time, effectively sharing the same local time with South Africa approximately seven months of the year.
 
-I decided to take the UTC offsets as of the 1st of January 2022 in order to be able to answer my initial question which was: **How many people moved into the new year together?**
+I decided to take the UTC offsets as of January 1, 2022 in order to be able to answer my initial question which was: **How many people moved into the new year together?**
 
 Once this was clarified in my head, I went out to look for a dataset of territories and their populations[^5] and a dataset of territories and their UTC offsets.[^6]
 
@@ -42,15 +42,15 @@ There are some big countries out there and some of these big countries think it 
 
 Luckily I did not have to recreate a map as timeanddate.com maintains a pretty cool map that is automatically updated to show the offsets currently in use around the world.[^8]
 
-I pasted my chart above their map, tweaked the colors of the bars so they would match the regions of the world with the corresponding offset… et voilà!
+I placed my chart over their map, tweaked the colors of the bars so they would match the regions of the world with the corresponding offset… et voilà!
 
 ![Bar chart with number of people by UTC offset aligned with a map of the UTC offsets around the world](./world-population-by-utc-offset.webp)
 
 I’ll let you appreciate the graph and spot the places where the biggest number of people entered 2022 at the same time (UTC +8). Based on my calculation (and datasets) it’s closer to 21% of the world’s population. Still impressive though.
 
-As you can see there are some countries that think it’s cool to use a ½ hour offset. It’s not cool. It wasn’t for me at least. Anyway there are way too many people living in ½ hour offset places (hello India) for me to ignore them in my graph, so I created overlapping bars colored in a striped pattern.
+As you can see there are some countries that think it’s cool to use a half-hour offset. It’s not cool. It wasn’t for me at least. Anyway there are way too many people living in half-hour offset places (hello India) for me to ignore them in my graph, so I created overlapping bars colored in a striped pattern.
 
-But guess what? As if a ½ hour offset wasn’t precise enough, some places took it a level above with ¼ hour offsets! I excluded them. Sorry Nepal (30 million people), Chatham Islands (780 people) and Eucla (does anyone even live there?)…
+But guess what? As if a half-hour offset wasn’t precise enough, some places took it a level above with quarter-hour offsets! I excluded them. Sorry Nepal (30 million people), Chatham Islands (780 people) and Eucla (does anyone even live there?)…
 
 Anyway, this painful process made me wonder: does it make sense to use time zones at all?
 
