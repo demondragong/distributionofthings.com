@@ -1,7 +1,7 @@
 ---
 title: "Olympic fever part I – More sports more women"
 date: "2024-08-25"
-description: "A visual representation of the summer Olympic sports and women’s participation (1986 – 2024)"
+description: "Summer Olympic sports and women’s participation (1986 – 2024)"
 ---
 
 Early Olympics featured a relatively small selection of traditional sports like athletics, wrestling, and cycling. Over time, new sports such as badminton, triathlon, BMX cycling, and skateboarding were introduced, reflecting changing global interests and athletic innovations.

@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Distribution of things`,
+    title: `Distribution of Things`,
     author: {
       name: `Gaël de Mondragon and Natascha Minnitt`,
       summary: ``,
@@ -127,8 +127,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Distribution of things`,
-        short_name: `Distribution of things`,
+        name: `Distribution of Things`,
+        short_name: `Distribution of Things`,
         description: `A simple yet informative blog featuring frequency and probability distributions built on public datasets. Check out those curves!`,
         start_url: `/`,
         background_color: `#ffffff`,

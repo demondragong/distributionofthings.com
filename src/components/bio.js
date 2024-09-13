@@ -31,24 +31,10 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/gael.jpeg"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Gael de Mondragon"
-      />
+    <div className="bio" style={{ marginTop: '50px' }}>
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong>, {author?.summary || null}
-          <br/>
-          <a href={`https://x.com/${social?.twitter || ``}`} target="_blank">
-            Follow Gaël's journey on 𝕏.
-          </a>
+          Written by <strong>{author.name}</strong> {author?.summary || null}
         </p>
       )}
     </div>

@@ -1,5 +1,4 @@
 /* CSS Custom Properties Definitions */
-
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -59,7 +58,6 @@
 }
 
 /* HTML elements */
-
 *,
 :after,
 :before {
@@ -82,6 +80,7 @@ body {
 footer {
   padding: var(--spacing-6) var(--spacing-0);
   padding-bottom: var(--spacing-3);
+  border-top: 1px solid #DADADA; /* Add a line on the top of the footer */
 }
 
 hr {
@@ -90,8 +89,45 @@ hr {
   border: 0;
 }
 
-/* Heading */
+/* Header styling - with logo, title, and about link */
+.global-header {
+  display: flex;
+  justify-content: space-between; /* Spacing for logo, title, and about link */
+  align-items: center;            /* Vertical alignment */
+  padding: var(--spacing-4) var(--spacing-5); /* Adjusted padding for spacing */
+  border-bottom: 1px solid #DADADA; /* Light gray line under the header */
+  width: 100%;                     /* Full width of the header */
+  box-sizing: border-box;           /* Padding included in the width */
+}
 
+/* Logo styling */
+.header-logo {
+  width: 50px; /* Adjust size if needed */
+  height: 50px;
+}
+
+/* Title styling */
+.header-center a {
+  font-family: var(--font-heading);
+  font-size: 24px;                 /* Adjust title size */
+  font-weight: bold;
+  color: #365B6D;                  /* Title color */
+  text-decoration: none;
+}
+
+/* About link styling */
+.header-right a {
+  font-family: var(--font-body);
+  font-size: 14px;                 /* Slightly smaller than title */
+  color: #365B6D;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  text-decoration: underline; /* Underline on hover for the about link */
+}
+
+/* Heading */
 h1,
 h2,
 h3,
@@ -155,7 +191,6 @@ h6 > a {
 }
 
 /* Prose */
-
 p {
   line-height: var(--lineHeight-relaxed);
   --baseline-multiplier: 0.179;
@@ -225,7 +260,6 @@ table thead tr th {
 }
 
 /* Link */
-
 a {
   color: var(--color-primary);
 }
@@ -236,7 +270,6 @@ a:focus {
 }
 
 /* Custom classes */
-
 .global-wrapper {
   margin: var(--spacing-0) auto;
   max-width: var(--maxWidth-wrapper);
@@ -248,16 +281,12 @@ a:focus {
   margin-bottom: var(--spacing-20);
 }
 
-.global-header {
-  margin-bottom: var(--spacing-12);
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .main-heading {
   font-size: var(--fontSize-7);
-  margin: 0;
+  font-weight: bold;
+  color: #365B6D; /* Adjust color as needed */
+  margin-top: 1.5rem; /* Add spacing above */
+  text-align: left; /* Center the heading */
 }
 
 .post-list-item {
@@ -270,8 +299,8 @@ a:focus {
 }
 
 .post-list-item h2 {
-  font-size: var(--fontSize-4);
-  color: var(--color-primary);
+  font-size: var(--fontSize-3);
+  color: #3B3A3A;
   margin-bottom: var(--spacing-2);
   margin-top: var(--spacing-0);
 }
@@ -350,10 +379,59 @@ a:focus {
   text-align: center;
 }
 
+/* Social Media Section */
+.footer-social {
+  text-align: center;
+  margin: var(--spacing-8) 0;
+}
 
+.footer-social h3 {
+  font-size: var(--fontSize-2);
+  font-weight: var(--fontWeight-bold);
+  color: var(--color-text);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; /* Reduced gap between the icons and links */
+  margin-top: var(--spacing-4);
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.copyright-container {
+  text-align: center;
+  margin-top: var(--spacing-8);
+}
+
+/* Footer font styling */
+.footer-social, .copyright-container {
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;
+  color: #365B6D;
+}
+
+.footer-social h3 {
+  font-size: 16px; /* Adjust this size if needed */
+  font-weight: bold;
+}
+
+.social-links a {
+  color: #365B6D; /* Ensures the link color is correct */
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline; /* Optional: Adds underline when hovering over links */
+}
 
 /* Media queries */
-
 @media (max-width: 42rem) {
   blockquote {
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
