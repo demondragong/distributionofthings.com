@@ -8,39 +8,30 @@ const Layout = ({ location, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      
-      {/* Updated Header Section */}
       <header className="global-header">
-  <div className="header-left">
-    {/* Logo */}
-    <StaticImage
-      className="header-logo"
-      layout="fixed"
-      formats={["auto", "webp", "avif"]}
-      src="../images/logo.jpeg" // Replace with your logo path
-      width={75}
-      height={50}
-      quality={100}
-      alt="Logo"
-    />
-  </div>
-  <div className="header-center">
-    {/* Title */}
-    <Link to="/">Distribution of Things</Link>
-  </div>
-  <div className="header-right">
-    {/* About Link */}
-    <Link to="/about">About</Link>
-  </div>
-</header>
+        <div className="header-left">
+          <StaticImage
+            className="header-logo"
+            layout="constrained"
+            formats={["auto", "webp", "avif"]}
+            src="../images/logo.jpeg"
+            quality={100}
+            alt="Logo of distribution of things"
+          />
+        </div>
+        <div className="header-center">
+          <Link to="/">Distribution of Things</Link>
+        </div>
+        <div className="header-right">
+          <Link to="/about">About</Link>
+        </div>
+      </header>
 
-<main>
-  {children}
-</main>
+      <main>
+        {children}
+      </main>
       
-      {/* Footer Section */}
       <footer>
-        {/* Social Media Section */}
         <div className="footer-social">
           <h3>Follow us</h3>
           <div className="social-links">
