@@ -1,6 +1,9 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import githubLogo from "../images/github-mark.svg"
+import xLogo from "../images/X_logo_2023.svg"
+
 
 const Layout = ({ location, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -35,44 +38,20 @@ const Layout = ({ location, children }) => {
         <div className="footer-social">
           <h3>Follow us</h3>
           <div className="social-links">
-            {/* X (Twitter) section */}
-            <StaticImage
-              className="social-icon"
-              layout="fixed"
-              formats={["auto", "webp", "avif"]}
-              src="../images/X_logo_2023.svg"
-              width={24}
-              height={24}
-              quality={95}
-              alt="Twitter Icon"
-            />
-            <a href="https://x.com/gaeldemondragon" target="_blank" rel="noopener noreferrer">
-              Gaël
-            </a>
-            and
-            <a href="https://x.com/nataschaminnitt" target="_blank" rel="noopener noreferrer">
-              Natascha
-            </a>
+            <img src={xLogo} alt="X Logo" />
+            <span>
+              <a href="https://x.com/gaeldemondragon" target="_blank" rel="noopener noreferrer">Gaël</a> and <a href="https://x.com/nataschaminnitt" target="_blank" rel="noopener noreferrer">
+              Natascha</a>
+            </span>
           </div>
 
           {/* GitHub section */}
           <div className="social-links">
-            <StaticImage
-              className="social-icon"
-              layout="fixed"
-              formats={["auto", "webp", "avif"]}
-              src="../images/github-mark.png"
-              width={24}
-              height={24}
-              quality={95}
-              alt="GitHub Icon"
-            />
-            <a href="https://github.com/demondragong" target="_blank" rel="noopener noreferrer"> Gaël
-            </a>
-            and
-            <a href="https://github.com/nataschaminnitt" target="_blank" rel="noopener noreferrer">
-              Natascha
-            </a>
+          <img src={githubLogo} alt="Github Logo" />
+            <span>
+              <a href="https://github.com/demondragong" target="_blank" rel="noopener noreferrer"> Gaël</a> and <a href="https://github.com/nataschaminnitt" target="_blank" rel="noopener noreferrer">
+              Natascha</a>
+            </span>
           </div>
         </div>
 

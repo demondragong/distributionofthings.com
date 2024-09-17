@@ -378,6 +378,11 @@ a:focus {
   margin-top: var(--spacing-4);
 }
 
+.social-links img {
+  width: 24px;
+}
+
+
 .social-icon {
   width: 24px;
   height: 24px;
