@@ -8,20 +8,20 @@ const About = ({ location }) => {
   return (
     <Layout location={location}>
       <h1>About</h1>
-      <p>Hi 👋 Gaël and Natascha here</p>
-
-      <StaticImage
-        layout="fixed"
+      <p>Hi 👋</p>
+      <p>
+        <StaticImage
+        layout="constrained"
         formats={["auto", "webp", "avif"]}
         src="../images/nat_gael.jpeg"
         width={360}
         height={200}
         quality={95}
         alt="underwater picture of Gael and Natascha"
-      />
-
-      <br />
-      <p>We thought about calling this page "FAQ," but no one has asked us these questions...</p>
+        />
+      </p>
+      <p>Gaël and Natascha here.</p>
+      <p>We thought about calling this page "FAQ" but no one has asked us these questions...</p>
       <p>
         <b>What is this all about?</b>
         <br />
