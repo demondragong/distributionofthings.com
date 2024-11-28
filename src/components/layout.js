@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import githubLogo from "../images/github-mark.svg"
-import xLogo from "../images/X_logo_2023.svg"
+import blueskyLogo from "../images/bluesky-logo.svg"
 
 
 const Layout = ({ location, children }) => {
@@ -38,9 +38,9 @@ const Layout = ({ location, children }) => {
         <div className="footer-social">
           <h3>Follow us</h3>
           <div className="social-links">
-            <img src={xLogo} alt="X Logo" />
+            <img src={blueskyLogo} alt="bluesky Logo" />
             <span>
-              <a href="https://x.com/gaeldemondragon" target="_blank" rel="noopener noreferrer">Gaël</a> and <a href="https://x.com/nataschaminnitt" target="_blank" rel="noopener noreferrer">
+              <a href="https://bsky.app/profile/gaeldemondragon.com" target="_blank" rel="noopener noreferrer">Gaël</a> and <a href="https://bsky.app/profile/natascha-minnitt.bsky.social" target="_blank" rel="noopener noreferrer">
               Natascha</a>
             </span>
           </div>
