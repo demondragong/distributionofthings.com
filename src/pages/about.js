@@ -42,7 +42,7 @@ const About = ({ location }) => {
       <p>
         <b>I have an idea for a distribution, can I share it?</b>
         <br />
-        Please do! You can reach us on X (Twitter): <a href="https://x.com/gaeldemondragon">Gaël</a> and <a href="https://x.com/nataschaminnitt">Natascha</a>.
+        Please do! You can reach us on Bluesky: <a href="https://bsky.app/profile/gaeldemondragon.com">Gaël</a> and <a href="https://bsky.app/profile/natascha-minnitt.bsky.social">Natascha</a>.
       </p>
       <p>
         <b>Say NO to misinformation!</b>
