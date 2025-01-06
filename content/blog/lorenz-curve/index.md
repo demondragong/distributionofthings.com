@@ -18,11 +18,11 @@ Here’s how it works:
 
 The Gini coefficient itself is calculated as the ratio of two areas: the area between the line of perfect equality and the Lorenz Curve, and the total area under the line of perfect equality. The higher the coefficient, the more unequal the distribution.
 
-![](/lorenz_curve_country_comparison_five.png)
+![](./lorenz_curve_country_comparison_five.png)
 
 South Africa's Lorenz Curve is highly skewed, meaning the richest 20% hold a disproportionate share of the country’s wealth. This isn’t surprising given the country’s history. Inequality in South Africa is rooted in decades of colonialism and racial segregation during apartheid, which only ended in 1994. Despite this, wealth has not been redistributed. Instead, the wealthiest 20% of South Africans continue to accumulate a larger and larger share of the nation’s income.
 
-![](/lorenz_curve_bar_south_africa.png)
+![](./lorenz_curve_bar_south_africa.png)
 
 ------------------------------------------------------------------------
 
