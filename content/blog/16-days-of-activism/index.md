@@ -4,7 +4,7 @@ date: "2025-11-26"
 description: "16 visuals for 16 days of activism against gender-based violence"
 ---
 
-For 16 days, this data walk follows South African women’s lives through fear, violence, death. As well as their encounters with a system that too often fails them. Each day poses a question and uses one visual to answer it. The goal isn’t just to shock, but to make the scale, patterns and mechanics of gender-based violence (GBV) in South Africa impossible to ignore.
+For 16 days, this data walk follows South African women’s lives through fear, violence and death. As well as their encounters with a system that too often fails them. Each day poses a question and uses one visual to answer it. The goal isn’t just to shock, but to make the scale, patterns and mechanics of gender-based violence (GBV) in South Africa impossible to ignore.
 
 ---
 ### An everyday danger
@@ -69,7 +69,7 @@ Violence against women is widespread across South Africa, but the chances of fin
 ![](./dayX_sexual_offences_per_100k_women.png)
 <br>
 
-**DAY 11. How overloaded are specialised rape services?** Access to specialised services is uneven. Some provinces have extremely high loads per Thuthuzela Care Centre (TCC), stretching the system and limiting the support survivors can receive.
+**DAY 11. How overloaded are specialised rape services?** Thuthuzela Care Centres (TCCs) are one-stop facilities in public hospitals where rape survivors can receive medical care, counselling and legal support in one place. They are a core part of South Africa’s anti-rape strategy, designed to reduce secondary victimisation and build cases that are ready for prosecution. Fifty-four centres have been established since 2006, but access to them is uneven. Some provinces have extremely high loads per TCC, stretching the system and limiting the support survivors can receive.
 
 ![](./dayX_rape_per_TCC_by_province.png)
 <br>
@@ -106,7 +106,7 @@ Violence against women is widespread across South Africa, but the chances of fin
 </div>
 
 ---
-### References
+### References for each day
 
 [1] Gallup. Global Law and Order 2023. Gallup, Inc. (Indicator: “Feel safe walking alone at night” for South Africa and comparison countries.)
 
@@ -132,10 +132,4 @@ Violence against women is widespread across South Africa, but the chances of fin
 
 [12] Mathews, S., Abrahams, N., Martin, L. J., Lombard, C., & Jewkes, R. National femicide studies in South Africa (1999 and 2009) – modules on prior police knowledge of intimate partner violence before femicide.
 
-[13] Clooney Foundation for Justice. Barriers to Justice: Gender-Based Violence in South Africa (2025). Sections on case pathways and attrition from rape to reporting, investigation and trial.
-
-[14] Clooney Foundation for Justice. Barriers to Justice: Gender-Based Violence in South Africa (2025). Analysis of conviction outcomes for rape and femicide cases that reach the end of the justice process.
-
-[15] Clooney Foundation for Justice. Barriers to Justice: Gender-Based Violence in South Africa (2025). Survey findings on reasons why survivors do not report rape to the police.
-
-[16] Clooney Foundation for Justice. Barriers to Justice: Gender-Based Violence in South Africa (2025). Survey findings on survivors’ experiences after reporting (waiting times, insensitive treatment, lack of information on rights and services). 
+[13 - 16] Clooney Foundation for Justice. Barriers to Justice: Gender-Based Violence in South Africa (2025). Sections on case pathways and attrition from rape to reporting, investigation and trial.

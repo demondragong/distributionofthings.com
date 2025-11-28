@@ -40,7 +40,7 @@ const Layout = ({ location, children }) => {
           <div className="social-links">
             <img src={blueskyLogo} alt="bluesky Logo" />
             <span>
-              <a href="https://bsky.app/profile/gaeldemondragon.com" target="_blank" rel="noopener noreferrer">Gaël</a> and <a href="https://bsky.app/profile/natascha-minnitt.bsky.social" target="_blank" rel="noopener noreferrer">
+              <a href="https://bsky.app/profile/gaeldemondragon.com" target="_blank" rel="noopener noreferrer">Gaël</a> and <a href="https://loopedconsultants.com/nataschaminnitt/" target="_blank" rel="noopener noreferrer">
               Natascha</a>
             </span>
           </div>
