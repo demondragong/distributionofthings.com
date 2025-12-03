@@ -1,5 +1,5 @@
 ---
-title: "When society fails women: A data walk through GBV in South Africa"
+title: "When society fails women: a data walk through GBV in South Africa"
 date: "2025-11-26"
 description: "16 visuals for 16 days of activism against gender-based violence"
 ---

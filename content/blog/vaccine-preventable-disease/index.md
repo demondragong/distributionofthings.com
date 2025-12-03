@@ -1,6 +1,6 @@
 ---
 title: "Vaccines: introduction, adoption, and the changing burden of disease"
-date: "2025-10-01"
+date: "2025-09-01"
 description: "Five visuals to better understand vaccine-preventable diseases"
 ---
 
